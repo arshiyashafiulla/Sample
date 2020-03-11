@@ -3,7 +3,7 @@
    <!--Project tag used to mention project name and basedir attribute will be the root directory of application-->
    <project name="YTMonetize" basedir=".">
    	<!--Property tags will be used as variables in build.xml file to use in further steps-->
-    <property name="build.dir" value="${basedir}/build"/>
+    <property name="build.dir" value="${basedir}/build/Sample"/>
    	<!-- put  testng related jar in resource  folder -->
    	<property name="external.jars" value=".\resource"/>
 	<!-- put  selenium related jar in resource  folder -->
